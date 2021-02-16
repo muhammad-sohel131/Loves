@@ -36,7 +36,7 @@ submitBtn.addEventListener('click', function(){
     }else{
         if(nameValue=='far' || nameValue=='Far') herName='Shuvo' 
         else if(nameValue=='mim' || nameValue=='sal' || nameValue=='Mim' || nameValue=='Sal') herName= 'Sohel'
-        else if(nameValue=='sum' nameValue=='Sum') herName='Sopon'
+        else if(nameValue=='sum' || nameValue=='Sum') herName='Sopon'
         else if(nameValue=='rit') herName='There is one who'
         else {
             herName='There is no one who'
