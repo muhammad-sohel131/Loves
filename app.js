@@ -16,8 +16,8 @@ submitBtn.addEventListener('click', function(){
 
     if(selectedGender=='Male'){
         if(nameValue=='far') herName='Sila' 
-        else if(nameValue=='shu' || nameValue=='suv' || nameValue=="ism") herName='Farjana'
-        else if( nameValue=='ifa' || nameValue=='has') {
+        else if(nameValue=='shu' || nameValue=='suv' || nameValue=="ism" || nameValue=='Shu' || nameValue=='Suv' || nameValue=="Ism") herName='Farjana'
+        else if( nameValue=='ifa' || nameValue=='has'|| nameValue=='Ifa' || nameValue=='Has') {
             herName = 'Mia Khalifa'
             wow= 'Great! You are so lucky'
         }
@@ -26,7 +26,7 @@ submitBtn.addEventListener('click', function(){
             wow= 'Great! You are so lucky'
         } 
         else if(nameValue=='soh' || nameValue=='sho') herName='Mim'
-        else if(nameValue=='sop') herName='Sumaiya'
+        else if(nameValue=='sop'  || nameValue=='Sop') herName='Sumaiya'
         else if(nameValue=='rit') herName=='There is one who'
         else {
         herName='There is no one who'
@@ -34,7 +34,7 @@ submitBtn.addEventListener('click', function(){
          let loves = 0
     }
     }else{
-        if(nameValue=='far') herName='Shuvo' 
+        if(nameValue=='far' || nameValue=='Far') herName='Shuvo' 
         else if(nameValue=='mim' || nameValue=='sal') herName= 'Sohel'
         else if(nameValue=='sum') herName='Sopon'
         else if(nameValue=='rit') herName='There is one who'
