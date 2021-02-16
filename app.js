@@ -6,7 +6,7 @@ const result = document.querySelector('.result')
 
 submitBtn.addEventListener('click', function(){
     let selectedGender = document.getElementById('selectGender').value
-    let loves = Math.floor(Math.random()*20)+80
+    var loves = Math.floor(Math.random()*20)+80
 
     const yourName = document.querySelector('.form-control')
     let name = yourName.value
@@ -31,7 +31,7 @@ submitBtn.addEventListener('click', function(){
         else {
         herName='There is no one who'
          wow = 'Ops! So Sad.'
-         let loves == 0
+         var loves = 0
     }
     }else{
         if(nameValue=='far' || nameValue=='Far') herName='Shuvo' 
@@ -41,7 +41,7 @@ submitBtn.addEventListener('click', function(){
         else {
             herName='There is no one who'
              wow = 'Ops! So Sad.'
-             let loves == 0
+             var loves = 0
         }
     }
     
